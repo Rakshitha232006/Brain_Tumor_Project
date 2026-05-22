@@ -1,132 +1,133 @@
-🧠 Brain Tumor Detection & Classification Using Deep Learning
-📌 Project Overview
+# Brain Tumor Detection System – README.md
 
-This project presents a Deep Learning–based Brain Tumor Detection and Classification System using MRI images.
-The system can:
+````md
+# 🧠 Brain Tumor Detection System
 
-Detect whether a brain tumor is present
+An AI-powered Brain Tumor Detection and Classification System that uses Deep Learning and MRI image analysis to detect brain tumors accurately. This project aims to assist in early diagnosis by analyzing MRI scans using Convolutional Neural Networks (CNNs).
 
-Classify the tumor into Glioma, Meningioma, Pituitary Tumor, or No Tumor
+---
 
-Provide confidence score
+## 🚀 Features
 
-Display medical insights such as affected brain region, possible symptoms, and treatment options (informational)
+- Brain tumor detection using MRI images
+- Deep Learning-based classification
+- User-friendly interface
+- Image preprocessing and prediction visualization
+- Real-time prediction results
+- High accuracy tumor classification
 
-The model is deployed as a user-friendly web application using Streamlit.
+---
 
-🎯 Objectives
+## 🛠️ Tech Stack
 
-To automate brain tumor detection using MRI images
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-To classify brain tumors into different types
+### Backend
+- Python
+- Flask / FastAPI
 
-To assist understanding through visual and medical insights
+### Machine Learning
+- TensorFlow
+- Keras
+- CNN (Convolutional Neural Network)
+- OpenCV
+- NumPy
+- Pandas
 
-To demonstrate real-world application of CNNs in healthcare
+---
 
-🧠 Tumor Classes Supported
+## 📂 Project Structure
 
-Glioma
+```bash
+Brain_Tumor_Project/
+│
+├── dataset/
+├── model/
+├── static/
+├── templates/
+├── app.py
+├── train_model.py
+├── requirements.txt
+└── README.md
+````
 
-Meningioma
+---
 
-Pituitary Tumor
+## 🧠 How It Works
 
-No Tumor
+1. Upload MRI scan image
+2. Image preprocessing using OpenCV
+3. CNN model analyzes the image
+4. System predicts whether tumor is present
+5. Displays prediction result with confidence score
 
-🏗️ System Architecture
+---
 
-MRI Image Upload
+## 📸 Screenshots
 
-Image Preprocessing (Resize, Normalize)
+### Home Page
 
-CNN-based Feature Extraction
+(Add screenshot here)
 
-Multi-Class Classification (Softmax)
+### Prediction Result
 
-Result Display with Confidence & Medical Insights
+(Add screenshot here)
 
-🧪 Dataset Used
+---
 
-Brain Tumor MRI Dataset (Kaggle – masoudnickparvar)
+## ⚙️ Installation
 
-MRI images categorized into:
+### Clone the Repository
 
-Glioma
+```bash
+git clone https://github.com/Rakshitha232006/Brain_Tumor_Project.git
+```
 
-Meningioma
+### Navigate to Project Folder
 
-Pituitary
+```bash
+cd Brain_Tumor_Project
+```
 
-No Tumor
+### Install Dependencies
 
-The dataset was reorganized into class-wise folders and split internally for training and testing.
+```bash
+pip install -r requirements.txt
+```
 
-⚙️ Technologies Used
+### Run the Application
 
-Python
+```bash
+python app.py
+```
 
-TensorFlow / Keras
+---
 
-OpenCV
+## 📊 Model Information
 
-NumPy
+* Model Type: Convolutional Neural Network (CNN)
+* Dataset: MRI Brain Scan Images
+* Framework: TensorFlow/Keras
+* Image Processing: OpenCV
 
-Matplotlib
+---
 
-Streamlit
+## 🎯 Future Improvements
 
-GitHub
+* Multi-class tumor classification
+* Cloud deployment
+* Real-time MRI analysis
+* Improved model accuracy
+* Medical report generation
 
-Streamlit Community Cloud
+---
 
-🤖 Model Details
+## 👩‍💻 Author
 
-Model Type: Convolutional Neural Network (CNN)
+### Rakshitha Donthireddy
 
-Input Size: 128 × 128 RGB images
-
-Output Layer: Softmax (4 classes)
-
-Loss Function: Categorical Crossentropy
-
-Optimizer: Adam
-
-Evaluation Metric: Accuracy
-
-🌐 Web Application Features
-
-Simple & clean user interface
-
-Upload MRI image
-
-Displays:
-
-Tumor detection result
-
-Tumor type
-
-Confidence score
-
-Affected brain region
-
-Possible symptoms
-
-Common treatment options
-
-Includes medical disclaimer
-
-⚠️ Disclaimer
-
-This application is developed for educational purposes only.
-It is not intended for medical diagnosis or clinical use.
-
-🏆 Conclusion
-
-This project demonstrates how deep learning and computer vision can assist in early brain tumor detection and classification, highlighting the potential of AI in healthcare applications.
-
-👩‍💻 Author
-
-Donthireddy Rakshitha
-CSE / Vignan Institute Of Technology And Science
-3rd-Year
+* GitHub: [https://github.com/Rakshitha232006](https://github.com/Rakshitha232006)
+* LinkedIn: [https://www.linkedin.com/in/rakshitha-donthireddy-640a6634a/](https://www.linkedin.com/in/rakshitha-donthireddy-640a6634a/)
